@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD de Gatos 🐾</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CRUD de Gatos 🐈</h1>
+
+  <form id="form">
+    <input type="text" id="nombre" placeholder="Nombre del gato" required>
+    <input type="text" id="color" placeholder="Color" required>
+    <input type="text" id="raza" placeholder="Raza o Mestizo" required>
+    <input type="number" id="edad" placeholder="Edad" required>
+    <input type="text" id="descripcion" placeholder="Descripción">
+    <button type="submit" id="btnSubmit">Agregar Gato</button>
+    <button type="button" id="btnCancelar" style="display:none;">Cancelar</button>
+  </form>
+
+  <h2>Lista de Gatos</h2>
+  <div id="gatos"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

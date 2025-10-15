@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #444;
+  margin-bottom: 30px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  margin: 8px;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btnSubmit {
+  background: #6c63ff;
+  color: white;
+  border: none;
+}
+
+#btnSubmit:hover {
+  background: #4b47d6;
+}
+
+#btnCancelar {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+}
+
+#btnCancelar:hover {
+  background: #ff5252;
+}
+
+#gatos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-editar {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-editar:hover {
+  background: #45a049;
+}
+
+.btn-eliminar {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btn-eliminar:hover {
+  background: #da190b;
+}
